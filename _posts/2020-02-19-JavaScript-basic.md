@@ -4,7 +4,9 @@ toc: true
 toc_sticky: true
 date: 2020-02-19 15:00:20 -0400
 categories: JavaScript
-tag: JavaScript
+tag:
+  - JavaScript
+  - 자바스크립트
 ---
 
 개발에 대해 많이 방황하던 중 처음부터 다시 시작하고자 하는 마음에 이 글을 포스팅 하려고 한다.

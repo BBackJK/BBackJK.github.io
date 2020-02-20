@@ -7,6 +7,8 @@ categories: JavaScript
 tag:
   - JavaScript
   - Function
+  - 자바스크립트
+  - 함수
 ---
 
 ## 함수란?
