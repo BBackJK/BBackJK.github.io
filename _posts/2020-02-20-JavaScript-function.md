@@ -123,14 +123,22 @@ document.write(parentFunc());
 
 이러한 특징을 **함수 호이스팅(hoisting)**이라고 한다.
 
-```Javascript
-var globalNum = 10;     // globalNum을 전역 변수로 선언
+```javascript
+var globalNum = 10; // globalNum을 전역 변수로 선언
 
 function printNum() {
-    document.write("지역 변수 globalNum 선언 전의 globalNum의 값은 " + globalNum + "입니다.<br>");  // [1]
+  document.write(
+    "지역 변수 globalNum 선언 전의 globalNum의 값은 " +
+      globalNum +
+      "입니다.<br>"
+  ); // [1]
 
-    var globalNum = 20;     // globalNum을 지역 변수로 선언 // [2]
-    document.write("지역 변수 globalNum 선언 후의 globalNum의 값은 " + globalNum + "입니다.<br>");
+  var globalNum = 20; // globalNum을 지역 변수로 선언 // [2]
+  document.write(
+    "지역 변수 globalNum 선언 후의 globalNum의 값은 " +
+      globalNum +
+      "입니다.<br>"
+  );
 }
 
 printNum();
