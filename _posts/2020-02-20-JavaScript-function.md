@@ -4,7 +4,9 @@ toc: true
 toc_sticky: true
 date: 2020-02-20 12:39:20 -0400
 categories: JavaScript
-tag: JavaScript Function
+tag:
+  - JavaScript
+  - Function
 ---
 
 ## 함수란?
